@@ -185,7 +185,7 @@ New-CsCommonAreaPhone -LineUri tel:+14255556710 -RegistrarPool redmond-cs-001.li
 Phone number for the common area phone.
 The line Uniform Resource Identifier (URI) should be specified using the E.164 format, and be prefixed by the "TEL:" prefix.
 For example: TEL:+14255551297.
-Any extension number should be added to the end of the line URI, for example: TEL:+14255551297;ext=51297.
+Any extension number should be added to the end of the line URI, for example: TEL:+14255551297;ext=51297. Using ext= format will require the use of quote marks:  "tel:+19992341234;ext=1234"
 
 ```yaml
 Type: String
